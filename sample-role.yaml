@@ -1,6 +1,6 @@
 
 AWSTemplateFormatVersion: "2010-09-09"
-Description: Base stack to create a simple role
+Description: Base stacks to create a simple role
 Resources:
   SampleIamRole:
     Type: AWS::IAM::Role
