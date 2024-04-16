@@ -28,7 +28,6 @@ Resources:
                 - 'dynamodb:UpdateItem'
                 - 'dynamodb:GetItem'
                 - 'dynamodb:DeleteTable'
-                Resource: '*'
               - Effect: Allow
                 Action:
                   - 'iam:PassRole'
