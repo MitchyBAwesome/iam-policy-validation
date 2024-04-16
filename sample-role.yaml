@@ -9,7 +9,7 @@ Resources:
         Statement:
           - Effect: Allow
             Principal:
-              AWS: "*"
+              AWS: "arn:aws:iam::153772797111:root"
             Action: ["sts:AssumeRole"]
       Path: /      
       Policies:
